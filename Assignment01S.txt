@@ -1,0 +1,4 @@
+Socket successfully created
+socket binded to 12345
+socket is listening
+Got connection from ('127.0.0.1', 41276)

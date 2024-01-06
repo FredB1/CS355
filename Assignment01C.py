@@ -3,6 +3,8 @@
 # Winter 2024
 # Assignment #1C - Socket Programming Client
 # Frederick Burke
+# I did this assignment along with the class
+
 import socket
 import sys
 

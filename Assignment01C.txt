@@ -1,0 +1,13 @@
+Your Computer Name is: pop-os
+Your Computer IP Address is: 127.0.1.1
+The binary version is 01111111000000000000000100000001 32
+The class type is:  A
+The port number is:  8080 and type is:  Registered
+Socket successfully created
+the socket has successfully connected to www.google.com on port 80
+"Killer keeps it honest cuz reality is conception with a weak stomach, bubbling uneasy like the bowels of hell, enough to make a black ghost turn pale..."
+
+
+60313 24-01-04 12:12:25 00 0 0 154.5 UTC(NIST) *
+
+Thank you for connecting

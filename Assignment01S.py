@@ -3,6 +3,7 @@
 # Winter 2024
 # Assignment #1S - Socket Programming Server Side
 # Frederick Burke
+# I did this assignment along with the class
 
 # Import socket module
 import socket
