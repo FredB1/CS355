@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Web Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="topnav" id="myTopnav">
+        <a href="#home" class="active">Home</a>
+        <div class="dropdown" id="course">
+            <button class="dropbtn">Course
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="https://gaia.cs.umass.edu/kurose_ross/index.php">Jim Kurose Homepage</a>
+                <a href="http://w3schools.com">W3Schools Online Web Tutorials</a>
+                <a href="https://www.geeksforgeeks.org/web-development/ ">Web Development - GeeksforGeeks</a>
+            </div>
+        </div>
+        <div class="dropdown" id="browser">
+            <button class="dropbtn">Browser
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a onclick="myNavigator()">Navigator</a>
+                <a onclick="myWindow()">Window</a>
+                <a onclick="myScreen()">Screen</a>
+                <a onclick="myLocation()">Location</a>
+                <a onclick="myGeolocation()">Geolocation</a>             
+            </div>
+        </div>
+        <div class="dropdown" id="about">
+            <button class="dropbtn">About
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="https://www.linkedin.com/in/fredb7/">Fred Burke</a>
+                <a href="mailto:fburke77@gmail.com">Contact Me</a>
+            </div>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+        
+    </div>
+    <main>
+        <h1 id="main-head">Click Browser options for more info.</h1>
+        <h3 id="main-text"></h3>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>

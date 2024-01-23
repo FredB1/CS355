@@ -1,0 +1,36 @@
+body {
+    background-color: white;
+    font-family: "Times New Roman", "Times", serif;
+}
+h1 {
+    color: forestgreen;
+    text-align: center;
+}
+h3 {
+    color: forestgreen;
+}
+.vericaltext {
+ writing-mode: vertical-lr;
+ text-orientation: upright;
+}
+
+table, th, td {
+    border: 1px solid;
+    text-align: center;
+    vertical-align: top
+}
+th > a {
+    color: white;
+}
+th {
+    background-color: forestgreen;
+    color: white;
+}
+tr:nth-child(even) {
+    background-color: white;
+    color: grey;
+}
+tr:nth-child(odd) {
+    background-color: dimgray;
+    color: white;
+}

@@ -15,7 +15,7 @@ def read_file(fileName):
 
 
 def main():
-    title = "US States"
+    title = "Frederick Burke's US States"
     alignments = ["l", "l", "l", "r"]
     types = ["S", "S", "S", "N"]
     output = "assignment3.html"
@@ -26,7 +26,6 @@ def main():
             wiki_name = 'New_York_(state)'
         else:
             wiki_name = name
-        #href = "https://www.google.com/search?q=" + "Wiki+" + states[i][0].replace(' ', '+')
         href = "https://www.wikipedia.org/wiki/" + wiki_name.replace(' ', '_')
         a_attributes = 'href="' + href + '" target="_blank"'
         states[i][0]  = ou.create_element(ou.TAG_A, name, a_attributes)
